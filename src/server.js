@@ -8,10 +8,6 @@ const app = express()
 
 db.connect()
 
-const allowedOrigins = [
-  'http://127.0.0.1:5500',
-]
-
 app.use(cors())
 
 app.use(express.json())
