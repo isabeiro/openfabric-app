@@ -11,7 +11,7 @@ async function get(req, res) {
 async function post(req, res) {
     const {
         name,
-        product,
+        item,
         description,
     } = req.body
 
@@ -19,7 +19,7 @@ async function post(req, res) {
 
     const products = new ProductsModel({
         name,
-        product,
+        item,
         description,
     })
 
