@@ -24,7 +24,6 @@ async function post(req, res) {
     })
 
     products.save()
-
     res.send({
         message: 'post success'
     })

@@ -7,7 +7,6 @@ function connect() {
     db.once('open', () => {
         console.log('Conected to database!')
     })
-    
     db.on('error', () => console.log('Error'))
 }
 
