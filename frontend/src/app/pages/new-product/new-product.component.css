@@ -1,0 +1,52 @@
+
+.content {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url(../../../assets/galaxy-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(231, 229, 229);
+}
+
+.title {
+  font-size: 1.4em;
+}
+
+.card {
+  min-width: 400px;
+  min-height: 400px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(245, 240, 240, 0.24);
+  border: 4px solid black;
+  border-radius: 20px;
+  font-size: 1em;
+}
+
+.cardContent {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-field {
+  min-width: 90%;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 8px;
+}
+
+.button {
+  align-self: center;
+  margin: 0 10px;
+}

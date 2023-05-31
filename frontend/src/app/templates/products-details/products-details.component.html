@@ -1,0 +1,17 @@
+
+<div class="description">
+  <ul class="infoList">
+    <li class="list">
+      <span class="productTitle">Item:</span>
+      <span class="product">{{ this.item }} </span>
+    </li>
+    <li class="list">
+      <span class="productTitle">Description:</span>
+      <span class="product">{{ this.description }} </span>
+    </li>
+  </ul>
+  <mat-card-actions class="buttons">
+    <button mat-raised-button class="button" [routerLink]="'/edit/' + id">Edit Product</button>
+    <button mat-raised-button class="button" routerLink="/">Back to List</button>
+  </mat-card-actions>
+</div>

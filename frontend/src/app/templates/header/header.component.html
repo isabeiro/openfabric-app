@@ -1,0 +1,21 @@
+<header class="header">
+  <p>
+    <mat-toolbar class=toolbar>
+      <span>Open Fabric</span>
+      <span class="spacer"></span>
+      <button mat-icon-button [matMenuTriggerFor]="menu">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item routerLink="/">
+          <mat-icon>home</mat-icon>
+          <span>Home</span>
+        </button>
+        <button mat-menu-item routerLink="/new-product">
+          <mat-icon>task-alt</mat-icon>
+          <span>Add new product</span>
+        </button>
+      </mat-menu>
+    </mat-toolbar>
+  </p>
+</header>
