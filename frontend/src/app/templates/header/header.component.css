@@ -1,0 +1,21 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.toolbar {
+  background-color: black;
+  color: white;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}

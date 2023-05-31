@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let item of info" class="list">
+    <button mat-menu-item [id]="item._id" routerLink="/details/{{ item._id }}/{{ item.item }}/{{ item.description }}">
+      <span class="product">{{ item.item }}</span>
+    </button>
+  </li>
+</ul>
